@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     const fetchPosts = () => {
       axios
-        .get("http://localhost:8000/api/v1/post/")
+        .get("https://dall-e-4oni.onrender.com/api/v1/post/")
         .then((res) => {
           if (res.data) {
             //console.log(res.data.data);

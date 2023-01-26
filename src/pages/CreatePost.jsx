@@ -19,7 +19,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch("http://localhost:8000/api/v1/dalle/", {
+        const response = await fetch("https://dall-e-4oni.onrender.com/api/v1/dalle/", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -45,7 +45,7 @@ const CreatePost = () => {
       setLoading(true);
       // console.log(form);
       axios
-        .post("http://localhost:8000/api/v1/post/", form)
+        .post("https://dall-e-4oni.onrender.com/api/v1/post/", form)
         .then((response) => {
           console.log(response.status);
         })
