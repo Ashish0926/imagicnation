@@ -54,7 +54,7 @@ const CreatePost = () => {
         })
         .finally(() => {
           setLoading(false);
-          navigate("/home");
+          navigate("/");
         });
     } else {
       alert("Please enter prompt to generate image");
