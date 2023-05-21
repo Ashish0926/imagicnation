@@ -18,7 +18,7 @@ const App = () => {
             Home
           </Link>
           <Link
-            to="/create-post"
+            to="/create"
             className="font-inter font-medium bg-black text-white px-4 py-2 rounded-md"
           >
             Create
@@ -29,7 +29,7 @@ const App = () => {
       <main className="sm:p-8 px-4 py-8 w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]">
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/create-post" element={<CreatePost />}></Route>
+          <Route exact path="/create" element={<CreatePost />}></Route>
         </Routes>
       </main>
     </Router>
