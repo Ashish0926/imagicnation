@@ -9,13 +9,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/Ashish0926/dalle2.0.git
+  git clone https://github.com/Ashish0926/imagicnation.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd dalle2.0
+  cd imagicnation
 ```
 
 Install dependencies
@@ -34,6 +34,6 @@ Start the server
 ## Deployment
 
 ```bash
-  https://dalle-2.netlify.app/
+  https://imagicnation.netlify.app/
 ```
 
