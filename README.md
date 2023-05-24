@@ -31,9 +31,13 @@ Start the server
 ```
 
 
-## Deployment
+## Deployments
 
+Hosted on Netlify :
 ```bash
   https://imagicnation.netlify.app/
 ```
-
+Backend Server Hosted on Render :
+```bash
+  https://dall-e-4oni.onrender.com
+```
