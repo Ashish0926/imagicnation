@@ -1,5 +1,5 @@
 
-# DALL-E 2.0 - Based on OpenAI's GPT3
+# Imagicnation - Based on OpenAI's GPT3
 
 
 
